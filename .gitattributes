@@ -255,3 +255,39 @@ ul{
         display: none;
     }
 }
+
+
+
+
+
+
+
+extra;
+
+
+@media only screen and (min-width: 1000px ){
+
+    .wrapper{
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    .img-info{
+        width: 50%;
+        float: right; 
+   }
+
+   .img-info h2{
+    padding: 10px 10px 20px 10px;
+}
+
+    .img-info p{
+    padding: 20px 0px 0px 30px;
+}
+   
+   .img-me{
+       padding:100px 20px 20px 30px;
+       width:50%;
+       float:left;
+   }
+}
