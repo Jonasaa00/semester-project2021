@@ -1,5 +1,11 @@
 /*header*/
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     margin:0;
     font-family:Arial, Helvetica, sans-serif;
@@ -142,58 +148,6 @@ a{
     border: 5px solid #fff;
     background-color: #3E4B6A;
     padding: 30px;
-}
-
-
-
-
-/*footer*/
-
-body{ 
-    line-height: 1.5;
-    font-family: "poppins", sans-serif;
-
-}
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.container{
-    max-width: 100%;
-    margin: auto;
-}
-
-.row{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-ul{
-    list-style: none;
-}
-
-.footer{
-    background-color: #3E4B6A ;
-    padding: 70px 0
-}
-
-.footer-col{
-    width: 25%;
-    padding: 0 15px;
-}
-
-.footer-col h4{
-    font-size: 20px;
-    color: #fff;
-    margin-bottom: 20px;
-    font-weight: 500;
-    position: relative;
-}
-
-.undertext{
-    color: #fff;
 }
 
 @media (min-width:48em){
